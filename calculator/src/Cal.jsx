@@ -1,5 +1,7 @@
 import React from 'react'
-
+import { FaDivide} from "react-icons/fa6";
+import { FaBackspace } from "react-icons/fa";
+import { RxCross2 } from "react-icons/rx";
 function Cal() {
   return (
     <>
@@ -14,13 +16,13 @@ function Cal() {
 
             <div className='bg-[#171314] p-5  inset-shadow-sm rounded-2xl inset-shadow-zinc-500 hover:inset-shadow-red-500 hover:-translate-1 text-white font-bold text-xl'>C</div>
             <div className='bg-[#171314] p-5  inset-shadow-sm  rounded-2xl inset-shadow-zinc-500 hover:inset-shadow-red-500 hover:-translate-1 text-white font-bold text-xl'>-</div>
-            <div className='bg-[#171314] p-5  inset-shadow-sm rounded-2xl inset-shadow-zinc-500 hover:inset-shadow-red-500 hover:-translate-1 text-white font-bold text-xl'>/</div>
-            <div className='bg-[#171314] p-5 inset-shadow-sm rounded-2xl inset-shadow-zinc-500 hover:inset-shadow-red-500 hover:-translate-1 text-white font-bold text-xl'>cl</div>
+            <div className='bg-[#171314] p-5  inset-shadow-sm rounded-2xl inset-shadow-zinc-500 hover:inset-shadow-red-500 hover:-translate-1 text-white font-bold text-xl'><FaDivide /></div>
+            <div className='bg-[#171314] p-5 inset-shadow-sm rounded-2xl inset-shadow-zinc-500 hover:inset-shadow-red-500 hover:-translate-1 text-white font-bold text-xl'><FaBackspace /></div>
 
           <div className='bg-[#bf0000] p-5  inset-shadow-lg rounded-2xl inset-shadow-zinc-100 hover:inset-shadow-red-50 hover:-translate-1 text-white font-bold text-xl'>7</div>
 <div className='bg-[#bf0000] p-5  inset-shadow-lg rounded-2xl inset-shadow-zinc-100 hover:inset-shadow-red-50 hover:-translate-1 text-white font-bold text-xl'>8</div>
 <div className='bg-[#bf0000] p-5  inset-shadow-lg rounded-2xl inset-shadow-zinc-100 hover:inset-shadow-red-50 hover:-translate-1 text-white font-bold text-xl'>9</div>
-<div className='bg-[#bf0000] p-5  inset-shadow-lg rounded-2xl inset-shadow-zinc-100 hover:inset-shadow-red-50 hover:-translate-1 text-white font-bold text-xl'>*</div>
+<div className='bg-[#bf0000] p-5  inset-shadow-lg rounded-2xl inset-shadow-zinc-100 hover:inset-shadow-red-50 hover:-translate-1 text-white font-bold text-xl'><RxCross2 /></div>
             
             <div className='bg-[#bf0000] p-5  inset-shadow-lg rounded-2xl inset-shadow-zinc-100 hover:inset-shadow-red-50 hover:-translate-1 text-white font-bold text-xl'>4</div>
 <div className='bg-[#bf0000] p-5  inset-shadow-lg rounded-2xl inset-shadow-zinc-100 hover:inset-shadow-red-50 hover:-translate-1 text-white font-bold text-xl'>5</div>
